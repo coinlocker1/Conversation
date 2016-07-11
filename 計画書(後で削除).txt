@@ -1,4 +1,4 @@
-�I�����̐l�����\�ł��AHTML��JavaScript�Ő��삵�܂��B
+﻿選択式の人口無能です、HTMLとJavaScriptで製作します。
 <HTML>
-�e�L�X�g�G���A��AI�̌��t���o�͂��Areadonly�ŕύX�ł��Ȃ��悤�ɂ��܂��B
-3�قǂ̃{�^���ł�����̑I���������܂�(button�܂���image�Ȃǂ�)�B
+テキストエリアでAIの言葉を出力し、readonlyで変更できないようにします。
+3つほどのボタンでこちらの選択肢を作ります(buttonまたはimageなどで)。
