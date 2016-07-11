@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+ <html>
+ <head>
+
+<script type="text/javascript"><!--
+myH = (new Date()).getHours();   //uŽžv‚ÌŽæ“¾ (0`23)
+if ( myH <=  5 ) myMes = "u‚±‚ñ‚Î‚ñ‚Í–é’†‚Å‚·v"; // ‚OŽžˆÈã‚TŽžˆÈ‰º
+else if ( myH <= 11 ) myMes = "u‚¨‚Í‚æ‚¤’©‚Å‚·v";     // ‚UŽžˆÈã‚P‚PŽžˆÈ‰º
+else if ( myH == 12 ) myMes = "u’‹‹x‚Ý‚Å‚·v";         // ‚P‚QŽž
+else if ( myH <= 16 ) myMes = "u‚±‚ñ‚É‚¿‚Í’‹‚Å‚·v";   // ‚P‚RŽžˆÈã‚P‚UŽžˆÈ‰º
+else if ( myH <= 18 ) myMes = "u‚±‚ñ‚É‚¿‚Í—[•û‚Å‚·v"; // ‚P‚VŽžˆÈã‚P‚WŽžˆÈ‰º
+else if ( myH <= 23 ) myMes = "u‚±‚ñ‚Î‚ñ‚Í–é‚Å‚·v";   // ‚P‚XŽžˆÈã‚Q‚RŽžˆÈ‰º
+document.write( myMes );
+// --></script>
+
+<body>
+<p>‚ ‚¢‚³‚Â‚ð‘I‘ð‚µ‚Ä‚­‚¾‚³‚¢</p>
+<label><input type="button" name="aisatu1" value="u‚¨‚Í‚æ‚¤‚²‚´‚¢‚Ü‚·v"></label>
+<label><input type="button" name="aisatu2" value="u‚±‚ñ‚É‚¿‚Ív"></label>
+<label><input type="button" name="aisatu3" value="u‚±‚ñ‚Î‚ñ‚Ív"></label>
+
+
+
+</body>
+</html>
