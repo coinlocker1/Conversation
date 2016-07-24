@@ -31,7 +31,6 @@ window.onload = function Greeting() {
 	
 	if(hour <= 5) {
 		tx.value = ("こんばんは");
-        
 	}else if(hour <= 11) {
 		tx.value = ("おはようございます");
 	}else if(hour <= 17) {
