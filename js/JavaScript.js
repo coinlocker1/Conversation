@@ -11,13 +11,12 @@ var UserComment2 = new Array(3);
 var UserComment3 = new Array(3);
 
 /*AIのコメント*/
-var AIComment1 = [ "おはようございます" , "こんにちは" , "こんばんは" ];
-var AIComment2 = [ "","","" ];
-var AiComment3 = [ "","","" ];
+var AIComment1 = [ "ありがとうございます" , "こんにちは" , "こんばんは" ];
+var AIComment2 = [ "もちろんです","","" ];
+var AIComment3 = [ "さようなら","test1","test1" ];
 /*選択肢*/
-var UserComment1 = [ "test1","test2","test3" ];
-var UserComment2 = [ "test2","test2","test3" ];
-var UserComment3 = [ "test3","test3","test3" ];
+var UserComment1 = [ "明日もよろしくね","test1","test1" ];
+var UserComment2 = [ "バイバイ","test2","test2" ];
 
 
 /*読み込み完了時の実行内容*/
@@ -57,11 +56,10 @@ function bt1push() {
     tx.value = (AIComment2[0]);
     button1.value = (UserComment2[0]);
     flg ++;
-    break;
+    break; 
   case 2:
     tx.value = (AIComment3[0]);
-    button1.value = (UserComment3[0]);
-    break;
+    break;   
     }
 }
 
