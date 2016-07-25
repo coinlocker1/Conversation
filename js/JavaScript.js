@@ -15,8 +15,8 @@ var AIComment1 = [ "ありがとうございます" , "" , "" ];
 var AIComment2 = [ "もちろんです","もちろんです","" ];
 var AIComment3 = [ "さようなら","さようなら","さようなら" ];
 /*選択肢*/
-var UserComment1 = [ "明日もよろしくね","","" ];
-var UserComment2 = [ "バイバイ","バイバイ","" ];
+var UserComment1 = [ "明日もよろしくね","明日もよろしくね","バイバイ" ];
+var UserComment2 = [ "バイバイ","バイバイ","バイバイ" ];
 
 
 /*読み込み完了時の実行内容*/
@@ -47,11 +47,15 @@ function bt1push() {
   case 0:
     tx.value = (AIComment1[0]);
     button1.value = (UserComment1[0]);
+    button2.value = (UserComment1[1]);
+    button3.value = (UserComment1[2]);
     flg ++;
     break;
   case 1:
     tx.value = (AIComment2[0]);
     button1.value = (UserComment2[0]);
+    button2.value = (UserComment1[1]);
+    button3.value = (UserComment2[2]);
     flg ++;
     break; 
   case 2:
@@ -66,6 +70,7 @@ function bt2push() {
   case 0:
     tx.value = (AIComment2[1]);
     button2.value = (UserComment2[1]);
+    button3.value = (UserComment2[2]);
     flg ++;
     break;
   case 1:
